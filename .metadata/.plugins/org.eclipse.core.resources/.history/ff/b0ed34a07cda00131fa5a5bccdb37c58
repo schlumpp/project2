@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>杭师大教务处</title>
+<link rel = "stylesheet" type = "text/css" href = "images/login-header.css"/>
+</head>
+<body>
+<div id = "message-box"></div>
+<div id = "wrap">
+<div id = "header" align = "center"><img src = "images/login-title.png"></div>
+<div id = "login">
+<form action = "index.php" method = "post">
+<div class = "field1"><input class = "username" name = "name" value = "" id = "admin_name" type = "text"/><span id = "usernameResult" style = "width: 256px;"></span></div>
+<div class = "field2"><input class = "password" name = "admin_pwd" value = "" id = "admin_pwd" type = "password"/><span id = "pwdResult" style = "width: 256px"></span></div>
+
+</div>
+</div>
+</body>

@@ -1,0 +1,105 @@
+@CHARSET "UTF-8";
+*{
+	padding:0;
+    margin:0;
+}
+body{
+    width:auto;
+	height:793px;
+    margin:0 auto;
+	background:#edf1f7;	
+}
+li
+{
+	list-style:none;
+}
+#user
+{
+	position:absolute;
+	left:1206px;
+	top:0px;
+	width:160px;
+	height:65px;
+}
+#email
+{
+	position:absolute;
+	left:1206px;
+	top:0;
+	width:80px;
+	height:65px;
+	background:url(images/email.png);
+}
+#text_box
+{
+	position:absolute;
+	left:1206px;
+	top:0;
+	width:80px;
+	height:65px;
+	background:url(images/email.png);
+}
+#exit
+{
+	position:absolute;
+	left:1286px;
+	top:0px;
+	width:80px;
+	height:65px;
+}
+#blank
+{
+	position:absolute;
+	top:0px;
+}
+#header.hznu
+{
+	position:absolute;
+	width:95px;
+	top:0px;
+	left:0px;
+}
+#pic1
+{
+position:absolute;
+top:121px;
+left:0px;
+width:95px;	
+}
+
+#pic2
+{
+position:absolute;
+top:218px;
+left:0px;	
+}
+#pic3
+{
+position:absolute;
+top:311px;
+left:0px;	
+}
+#pic4
+{
+position:absolute;
+top:406px;
+left:0px;	
+}
+#pic5
+{
+position:absolute;
+top:501px;
+left:0px;	
+}
+#pic6
+{
+position:absolute;
+top:596px;
+left:0px;	
+}
+#pic7
+{
+position:absolute;
+top:691px;
+left:0px;	
+}

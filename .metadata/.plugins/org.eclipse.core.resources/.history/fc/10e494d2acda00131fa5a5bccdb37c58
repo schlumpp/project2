@@ -1,0 +1,16 @@
+<?php
+//function collect_data(){
+	require_once ("connect.php");
+	$sql = "select * from user";
+	$result = mysql_query($sql);
+while(mysql_fetch_array($result))
+{   
+    $i = 0;
+  
+	$colum[$i]= mysql_fetch_array($result);
+    print_r($colum[$i]);
+    $i++;
+}
+	//return $colum;
+//}i
+?>

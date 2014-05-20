@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+.apply{width:200px;height:auto;display: block;margin: auto;}
+
+.step{ width:800px; height:40px; }	
+
+.step ul { list-style:none;}
+
+.step ul li a:link{ color:#FFFFFF;}
+.step ul li a:visited{ color:#FFFFFF;}
+.step ul li  a:hover { color:#FFFFFF;}
+.step ul li  a:active{ color:#FFFFFF;}
+
+.step ul li{float:left; margin-left:40px; padding-top:5px; padding-left:11px; font-size:14px; font-weight:bold; color:#FFFFFF;}
+
+ 
+.step1{ background:url(../../img/step1.png) no-repeat; width:168px; height:35px;}
+
+.step2{ background:url(../../img/step2.png)  no-repeat; width:168px; height:35px;}
+
+
+.message{ clear:both;   height:auto; overflow:hidden;}
+	
+.message table tr td{ padding-top:10px;}
+
+.message h3{ background:url(../../img/nav_bg.jpg) repeat-x; color:#FFF; height:30px; padding-top:5px; border: 2px solid #f3f1f1; padding-left:12px;}
+
+.message h3:hover{cursor: pointer;   }
+
+.addicon1 { background:url(../../img/arrow_up.png) no-repeat ; width:14px; height:24px; float:right; margin-right: 40px; margin-top:5px;}
+
+.addicon2 { background:url(../../img/arrow_down.png) no-repeat ; width:14px; height:24px; float:right; margin-right: 40px; margin-top:5px;}
+
+.fontintro { width:500px; margin-left:30px;}
+
+.hidden{ display:none;}
+
+
+
+.mess_detial table td{ padding-top:20px;}
+
+
+.tab_top ul li { float:left;  display: block; font-size: 15px; font-weight: bold; height: 35px; width: 100px;  padding-top:14px;  text-align:center;}
+
+/*.tab_top ul li a{height: 35px; width:100px;  font-weight: bold; display: block; padding-top:14px; text-align:center;}*/
+
+.tabclass{cursor: pointer;  background:#CCCCCC; border:#ECECEC  1px 1px 0 1px  solid;}
+
+.tab_detial {clear:both; width:auto; height:230px; overflow:hidden; margin:0;  }
+
+.tab_detial ul{background:#CCCCCC; width:700px;; height:200px; margin-top:-13px;; clear:both; margin-left:40.5px;border:#E6E6E6 0 ipx ipx 1px  solid;}
+
+.tab_detial ul li{ margin-top:13px; margin-left:-40px;}
+
+
+.family_intro{ width:500px; height:200px; margin-left:250px;}
+/***************提示框***************/
+#over_container{
+min-width: 300px; /* Dialog will be no smaller than this */
+background:#33C;
+border:1px solid #0099CC;
+color:#FFF;
+}
+#over_message{
+text-align:center; 
+padding:10px 20px;}

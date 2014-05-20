@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>杭师大教务处</title>
+<link rel = "stylesheet" type = "text/css" href = "styles/basic.css"/>
+<link rel = "stylesheet" type = "text/css" href = "styles/style2.css"/>
+<link rel = "stylesheet" type = "text/css" href = "styles/styles.css"/>
+<link rel = "stylesheet" type = "text/css" href = "star_comment/css.css"/>
+<script type="text/javascript" src = "js/js.js"></script>
+<script type="text/javascript" src="star_comment/jq.js"></script>
+<script type="text/javascript" src="star_comment/jq.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="rating.js"></script>
+</head><body onload="MM_preloadImages('images/comment/blue.png')>
+<div id = "header"><a href =  "index.php"><img src = "images/hznu.png"></img></a></div>
+<div id = "content">
+<div id = "pic1"><a href =  "activity.php" ><img  src = "images/activity.png"></img></a></div>
+<div id = "pic2"><a href =  "article.php"><img  src = "images/article.png"></img></a></div>
+<div id = "pic3"><a href =  "class_choose.php"><img  src = "images/class.png"></img></a></div>
+<div id = "pic4"><a href =  "comment.php"><img  src = "images/comment.png"></img></a></div>
+<div id = "pic5"><a href =  "information_protect.php"><img  src = "images/information_pro.png"></img></a></div>
+<div id = "pic6"><a href =  "information_search.php"><img  src = "images/information_search.png"></img></a></div>
+<div id = "pic7"><a href =  "more.php"><img  src = "images/moer.png"></img></a></div>
+</div>
+<div>
+<div id = "comment1"><a href="comment_teacher.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('comment_1','','images/comment/blue.png',1)"><img class = "comment_class" src="images/comment/grey.png" width="1085" height="67" id="comment_1" /></a></div>
+</div>
+<div id="main">
+<div id="star1" class="rating">&nbsp;</div> 
+  </div>
+   </div>
+<div id = "email"><a href = ""><img class = "email2" src = "images/email.png"></img></a></div>
+<div id = "exit"><a href = "logout.php"><img class = "exit2" src = "images/exit.png"></img></a></div>
+<div id = "list"></div>
+<div id = "main"></div>
+<div id = "footer"></div>
+</body>
+</html>

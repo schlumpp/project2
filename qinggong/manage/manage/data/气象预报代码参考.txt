@@ -1,0 +1,5 @@
+中央气象台天气预报获取：
+参考博客分享：http://blog.sina.com.cn/s/articlelist_2727230937_0_1.html
+Android天气预报开发（1）
+Android天气预报开发（2）***重点看
+Android天气预报开发（3）

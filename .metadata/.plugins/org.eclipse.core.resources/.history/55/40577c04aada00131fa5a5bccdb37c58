@@ -1,0 +1,18 @@
+<?php
+$host="localhost";
+$db_user="root";
+$db_pass="1122";
+$db_name="database";
+$timezone="Asia/Shanghai";
+//用$link句柄连接数据库
+function(){  
+      
+$db = mysql_connect($host,$db_user,$db_pass)   
+    or die("连接数据库失败！");  
+  
+mysql_select_db("user")  
+    or die ("不能连接到user".mysql_error());  
+      
+      
+}  
+?>

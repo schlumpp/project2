@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+* {
+	padding:0;
+    margin:0;
+}
+body{
+    width:auto;
+	height:793px;
+    margin:0 auto;
+	background:#edf1f7;	
+}
+#login_title
+{
+	height:38px;
+}
+#header
+{
+	width:auto;
+	height:332px;
+	
+}
+#header.img
+{
+	position:absolute;
+	align:center;
+}
+#field1
+{
+	height :44px;
+	width:255px;
+	background:url(login_user.png);
+	background-position:0px -38px;
+}
+
+.username{
+	text-indent:60px; 
+	line-height:40px;
+	border:0px;
+}
+#field2
+{
+	height:41px;
+	width:256px;
+	
+}
+
+.password
+{
+	height:41px;
+	width:256px;
+	background:url(login_user.png);
+	bankground-position:0px -78px;
+	text-indent:35px; 
+	overflow:hidden;
+	border:0px;
+	
+	
+}
+

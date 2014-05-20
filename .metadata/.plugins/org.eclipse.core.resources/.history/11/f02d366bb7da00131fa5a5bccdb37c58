@@ -1,0 +1,10 @@
+<?php
+function collect_data(){
+	require_once ("connect.php");
+	$sql = "select*from user where username = ".$_POST['name'].'"and password = "'.$_POST['pwd'];
+	$result = mysql_query($sql) or die('SQL错误'.mysql_error());
+	$colum= mysql_fetch_array($result,MYSQL_ASSOC);
+	mysql_free_result($result);
+	return $colum;
+}
+?>

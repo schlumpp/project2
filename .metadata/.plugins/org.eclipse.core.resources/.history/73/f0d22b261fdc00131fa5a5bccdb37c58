@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Your Title</title>
+<link rel = "stylesheet" type = "text/css" href = "styles/basic.css"/>
+<script type="text/javascript" src = "js/js.js">
+</script>
+</head>
+<body onload="MM_preloadImages('images/activity/subject_blue.png')">
+<div id = "header"><a href =  ""><a href = "index.php"><img src = "images/hznu.png"></img></a></div>
+<div id = "content">
+<div id = "pic1"><a href =  "activity.php" ><img  src = "images/activity.png"></img></a></div>
+<div id = "pic2"><a href =  "article.php"><img  src = "images/article.png"></img></a></div>
+<div id = "pic3"><a href =  "class_choose.php"><img  src = "images/class.png"></img></a></div>
+<div id = "pic4"><a href =  "comment.php"><img  src = "images/comment.png"></img></a></div>
+<div id = "pic5"><a href =  "information_protect.php"><img  src = "images/information_pro.png"></img></a></div>
+<div id = "pic6"><a href =  "information_search.php"><img  src = "images/information_search.png"></img></a></div>
+<div id = "pic7"><a href =  "more.php"><img  src = "images/moer.png"></img></a></div>
+</div>
+<div>
+<div id = "contest1"><a href="subject_contest.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('subject','','images/activity/subject_blue.png',1)"><img class = "subject_contest" src="images/activity/subject_grey.png" id="subject" /></a></div>
+<div id = "contest2"><a href="class_test.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('test','','images/activity/test_blue.png',1)"><img class = "class_test" src="images/activity/test_grey.png" id="test" /></a></div>
+
+
+<div id = "contest2"></div>
+</div>
+<div id = "email"><a href = ""><img class = "email2" src = "images/email.png"></img></a></div>
+<div id = "exit"><a href = "logout.php"><img class = "exit2" src = "images/exit.png"></img></a></div>
+<div id = "list"></div>
+<div id = "main"></div>
+<div id = "footer"></div>
+</body>
+</html>

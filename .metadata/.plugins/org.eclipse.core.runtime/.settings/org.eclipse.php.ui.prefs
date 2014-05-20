@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+org.eclipse.php.core.workspaceDefaultLocale=zh_CN
+org.eclipse.php.ui.editor.templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="php-type-members" deleted\="false" description\="XHTML1.0 UTF8" enabled\="true" name\="XHTML1.0 UTF8">&lt;\!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http\://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;&\#13;\r\n&lt;html xmlns\="http\://www.w3.org/1999/xhtml"&gt;&\#13;\r\n&lt;head&gt;&\#13;\r\n&lt;meta http-equiv\="Content-Type" content\="text/html; charset\=utf-8" /&gt;&\#13;\r\n&lt;title&gt;Your Title&lt;/title&gt;&\#13;\r\n&lt;/head&gt;&\#13;\r\n&lt;body&gt;&\#13;\r\n&\#13;\r\n&lt;/body&gt;&\#13;\r\n&lt;/html&gt;&\#13;\r\n</template></templates>
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

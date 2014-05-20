@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+#more{width: 600px;  border: 1px solid #999; clear:both; float:left;} 
+.author a:hover{ color:#00CCCC; text-decoration:underline;}              
+.single_item{padding: 20px; border-bottom: 1px dotted #d3d3d3;}
+.author{position: absolute; left: 0px; font-weight:bold; color:#39f}
+.date{position: absolute; right: 0px; color:#999}
+.more_content{line-height:20px; word-break: break-all;}
+.element_head{width: 100%; position: relative; height: 20px;}
+.get_more{margin:10px; text-align:center}
+.more_loader_spinner{width:20px; height:20px; margin:10px auto; background: url(loader.gif) no-repeat;}
+	.backToTop {
+		 display: none;
+		 width: 18px;
+		 line-height: 1.2;
+		 padding: 5px 0;
+		 background-color: #000;
+		 color: #fff;
+		 font-size: 12px;
+		 text-align: center;
+		 position: fixed;
+		 _position: absolute;
+		 right: 10px;
+		 bottom: 100px;
+		 _bottom: "auto";
+		 cursor: pointer;
+		 opacity: .6;/*元素的透明度，取值为1表示完全不透明，取值为0表示完全透明*/
+		 filter: Alpha(opacity=60);/*CSS静态滤镜样式，设置图片或文字的不透明度*/
+	}

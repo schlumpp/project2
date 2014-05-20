@@ -1,0 +1,10 @@
+<?php
+function collect_data(){
+	require_once ("connect.php");
+	$sql = "select*from user";
+	$result = mysql_query($sql);
+	$colum= mysql_fetch_array($result);
+	mysql_free_result($result);
+	return $colum;
+}
+?>

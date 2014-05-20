@@ -1,0 +1,104 @@
+/*
+这个CSS是给main.php专用的css,主要包括main.php页面中间部分的css
+@作者 陈烘
+@更新 2013.4.12
+*/
+
+@charset "utf-8";
+
+/****新闻公告****/
+.notice { background:url(../../img/notice_bg.png) no-repeat; width:232px; height:237px;float:left;color:#057eef;}
+
+.notice p { font-size:18px; font-weight:bold;  float:right; padding-right:70px; padding-top:25px; margin:0;}
+
+.notice ol { padding-top:40px;  padding-left:60px;  }
+
+.notice a { color:#057eef;}
+
+.news a:hover{  color:#0CC; text-decoration:underline;}
+
+/*******图片轮换*********/
+.round_robin{ float:left; margin-left:0px; border:#CCC; }
+
+.d1{ width:478px; height:233px; overflow:hidden; border:#ccccff 2px solid; background-color:#000000; position:relative;}
+
+.loading{ width:478px; border:#666666 2px solid; background-color:#000000; color:#FFCC00;font-size:12px; height:100px;
+
+		  text-align:center; padding-top:30px; font-family:Verdana, Arial, Helvetica, sans-serif; font-weight:bold;}
+
+.d2{ width:100%; height:233px; overflow:hidden;}
+
+.num_list{ position:absolute; width:100%; left:0px; bottom:-1px; background-color:#000000; color:#FFFFFF; font-size:12px; padding:4px 0px; height:22px; overflow:hidden;}
+
+.num_list span{ display:inline-block; height:16px; padding-left:6px;}
+
+
+#picture{ display:none;}
+
+.button{ position:absolute; z-index:1000; right:0px; bottom:2px; font-size:13px; font-weight:bold; font-family:Arial, Helvetica, sans-serif;}
+
+.b1,.b2{ background-color:#666666; display:block;float:left; padding:2px 6px; margin-right:3px; color:#FFFFFF; text-decoration:none; cursor:pointer;}
+
+.b2{ color:#FFCC33; background-color:#FF6633;}
+
+/*******联系我们*********/
+
+.search { float:left; margin-left:15px; }
+
+
+
+
+
+.connectUs{ height:178px; width:260px; background:url(../../img/connectUs_bg.png) repeat-x; border:#acd3e2 1px solid; margin-top:20px; float:left;}
+
+.font_connect { font-size:20px; font-weight:bold; float:right; color:#03F; margin-right:50px; margin-bottom:0px;}
+
+.devive{width:239px; height:1px; margin-top:0px; margin-left:10px;}
+
+.connectUs table{ margin-top:8px;  padding-left:20px; float:left; border-collapse:inherit}
+
+/***********岗位招聘*******************/
+
+
+/****岗位招聘左右公用部分****/
+.latestNews { width:1000px;  clear:both;}
+
+.latestNews_content { width:400px;}
+
+.latestNews_title {width:450px;}
+
+.latestNews_content .solid{ border-bottom:dashed #057eef 0.5px; width:320px; }
+
+.latestNews_content a:hover{ text-decoration:underline; color:#0C6;}
+
+.latestNews_title,.latestNews_title a{ color:#057eef;}
+
+.latestNews_title_f1 { font-size:20px; font-weight:bold; } 
+
+.latestNews_title_f2 { font-size:16px; font-weight:bold;}
+
+.latestNews_title_f3 { font-size:14px; margin-left:100px;}
+
+.latestNews_title ul { list-style:none; float:left; border-bottom:solid #057eef; padding-left:10px;}
+
+.latestNews_title ul li { float:left; display:block; padding:0 20px 10px 0;}
+
+.latestNews_content a { color:#057eef;}
+
+.latestNews_content ul {list-style:url(../../img/icon.jpg); float:left; font-size:12px;  }
+
+.latestNews_content ul li { margin-bottom:8px;}
+
+.latestNews_content ul li a:hover {background:#f3f1f1;}
+
+.latestNews_date { margin-left:15px; float:right;}
+
+
+/********左岗位招聘**********/
+.left { clear:both;float:left;margin-top:20px;width:450px; }
+/********右岗位招聘**********/
+.right { float:right; margin-top:20px; width:450px; }
+
+
+
+

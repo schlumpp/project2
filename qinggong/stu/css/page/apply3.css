@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.result_read{ clear:both;float:left;}
+
+.result_read table td{width:150px; text-align:center; height:23px;}
+
+.result_read .f_tr{background:url(../.../../../img/nav_bg.png) repeat-x; color:#FFF; height:34px; }
+.result_read .f_tr td h3{ font-weight:900;}
+
+.result_read h3{ margin:0;}
+
+.tbg{background:#b5dafd;}

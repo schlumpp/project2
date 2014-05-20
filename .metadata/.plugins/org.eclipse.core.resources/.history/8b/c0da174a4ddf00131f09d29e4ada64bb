@@ -1,0 +1,271 @@
+@CHARSET "UTF-8";
+*{
+	padding:0;
+    margin:0;
+}
+body{
+    width:1366px;
+	height:793px;
+    margin:0 auto;
+	background:#edf1f7;	
+}
+li
+{
+	list-style:none;
+}
+#user
+{
+	position:absolute;
+	left:1206px;
+	top:0px;
+	width:160px;
+	height:65px;
+}
+#email
+{
+	position:absolute;
+	left:1206px;
+	top:0;
+	width:80px;
+	height:65px;
+}
+#text_box
+{
+	position:absolute;
+	left:1206px;
+	top:0px;
+	width:80px;
+	height:65px;
+}
+#exit
+{
+	position:absolute;
+	left:1286px;
+	top:0px;
+	width:80px;
+	height:65px;
+}
+.white
+{
+	top:0px;
+	position:absolute;
+	left:123px;
+}
+.email
+{
+	position:absolute;
+	left:1206px;
+	top:0px;
+}
+#blank
+{
+	position:absolute;
+	top:0px;
+}
+
+
+#header.hznu
+{
+	position:absolute;
+	width:95px;
+	top:0px;
+	left:0px;
+}
+#contest
+{
+
+	}
+.subject_contest
+{
+	position:absolute;
+	left:123px;
+	top:0px;
+	width:530px;
+	}
+.class_test
+{
+	position:absolute;
+	left:600px;
+	top:0px;
+	left:653px;
+	width:555px;
+	}
+#pic1
+{
+position:absolute;
+top:121px;
+left:0px;
+width:95px;	
+}
+
+#pic2
+{
+position:absolute;
+top:218px;
+left:0px;	
+}
+
+#pic3
+{
+position:absolute;
+top:311px;
+left:0px;	
+}
+.class1
+{
+	position:absolute;
+	left:123px;
+	top:0px;
+}
+.class2
+{
+	position:absolute;
+	left:494px;
+	top:0px;
+}
+.class3
+{
+	position:absolute;
+	left:830px;
+	top:0px;
+}
+#pic4
+{
+position:absolute;
+top:406px;
+left:0px;	
+}
+.comment_class
+{
+	position:absolute;
+	left:123px;
+	top:0px;
+	}
+#pic5
+{
+position:absolute;
+top:501px;
+left:0px;	
+}
+.protect1
+{
+	position:absolute;
+	left:123px;
+	top:0px;
+	}
+.protect2
+{
+	position:absolute;
+	left:488px;
+	top:0px;
+	}
+.protect3
+{
+	position:absolute;
+	left:817px;
+	top:0px;
+	}
+#pic6
+{
+position:absolute;
+top:596px;
+left:0px;	
+}
+.people
+{
+	position:absolute;
+	left:210px;
+	top:107px;
+}
+.time
+{
+	position:absolute;
+	left:600px;
+	top:107px;
+}
+.search1
+{
+	position:absolute;
+	left:123px;
+	top:0px;
+	}
+.search2
+{
+	position:absolute;
+	left:372px;
+	top:0px;
+	}
+.search3
+{
+	position:absolute;
+	left:637px;
+	top:0px;
+	}
+.search4
+{
+	position:absolute;
+	left:787px;
+	top:0px;
+	}
+.search5
+{
+	position:absolute;
+	left:998px;
+	top:0px;
+	}
+#pic7
+{
+position:absolute;
+top:691px;
+left:0px;	
+}
+.common1
+{
+		position:absolute;
+	left:123px;
+	top:0px;
+	}
+.common2
+{
+	position:absolute;
+	left:295px;
+	top:0px;
+}
+.old_password
+{
+	position:relative;
+	left:450px;
+	top:-20px;
+}
+.new_password
+{
+	position:relative;
+	left:450px;
+	top:-10px;
+}
+.submit
+{
+	
+}
+.common3
+{
+	position:absolute;
+	left:572px;
+	top:0px;
+}
+.common4
+{
+	position:absolute;
+	left:784px;
+	top:0px;
+}
+.common5
+{
+	position:absolute;
+	left:1044px;
+	top:0px;
+}
+#search
+{
+	
+}

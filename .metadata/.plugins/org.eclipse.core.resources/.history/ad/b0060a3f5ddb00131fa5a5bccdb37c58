@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Your Title</title>
+<link rel = "stylesheet" type = "text/css" href = "styles/basic.css"/>
+</head>
+<body>
+<div id = "header"><a href =  ""><img src = "images/hznu.png"></img></a></div>
+<div id = "content">
+<div id = "pic1"><a href =  "" ><img src = "images/activity.png"></img></a></div>
+<div id = "pic2"><a href =  ""><img  src = "images/article.png"></img></a></div>
+<div id = "pic3"><a href =  ""><img  src = "images/class.png"></img></a></div>
+<div id = "pic4"><a href =  ""><img  src = "images/comment.png"></img></a></div>
+<div id = "pic5"><a href =  ""><img  src = "images/information_pro.png"></img></a></div>
+<div id = "pic6"><a href =  ""><img  src = "images/information_search.png"></img></a></div>
+<div id = "pic7"><a href =  ""><img  src = "images/moer.png"></img></a></div>
+</div>
+<div id = "blank"><img class = "white" src = "images/blank.png"></img></div>
+
+<div id = "email"><a href = ""><img class = "email2" src = "images/email.png"></img></a></div>
+<div id = "exit"><a href = "login.php"><img class = "exit2" src = "images/exit.png"></img></a></div>
+
+<div id = "list"></div>
+<div id = "main"></div>
+<div id = "footer"></div>
+</body>
+</html>

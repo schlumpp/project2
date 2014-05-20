@@ -1,0 +1,40 @@
+Changelog Legend:
+
+[+] = Added
+[*] = Changed
+[^] = Moved
+[=] = No Changes
+[x] = Deleted
+[!] = Bugs
+
+----
+
+(10/04/2014) - Update - Version 1.1.2
+
+[+] Added custom Page Template for displaying the page content only for logged in users.
+[*] Updated language localizations.
+[*] Changed the look of the Scroll-top button.
+
+----
+
+(03/04/2014) - Update - Version 1.1.1
+
+[*] Edited the offer of Google Fonts in Theme Options.
+
+----
+
+(28/03/2014) - Update - Version 1.1.0
+
+[+] Added the option for displaying the Header Image on all pages.
+[+] Added Russian language localization.
+
+----
+
+(12/03/2014) - The initial public release - Version 1.0.1
+
+[*] Changed the icon set.
+[*] Edited the query function in functions/fe/widget-posts-default.php.
+
+----
+
+(10/03/2014) - The initial testing release - Version 1.0.0

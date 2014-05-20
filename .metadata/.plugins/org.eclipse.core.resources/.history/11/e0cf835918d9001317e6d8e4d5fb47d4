@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+*{
+	padding:0;
+    margin:0;
+}
+body{
+    width:auto;
+    margin:0 auto;
+	background:#edf1f7;	
+}
+
+#list
+{
+	width:8.86%;
+	height:793px;
+	background:red;
+}

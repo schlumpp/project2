@@ -1,0 +1,13 @@
+.rate{width:600px; margin:100px auto; font-size:14px; position:relative; padding:10px 0;} 
+.rate p {margin:0; padding:0; display:inline; height:40px; overflow:hidden; position:absolute;  
+top:0; left:100px; margin-left:140px;} 
+.rate p span.s {font-size:36px; line-height:36px; float:left; font-weight:bold; color:#DD5400;} 
+.rate p span.g {font-size:22px; display:block; float:left; color:#DD5400;} 
+.big_rate {width:140px; height:28px; text-align:left; position:absolute; top:3px; left:85px;  
+display:inline-block; background:url(star.gif) left bottom repeat-x;} 
+.big_rate span {display:inline-block; width:24px; height:28px; position:relative; z-index:1000; 
+ cursor:pointer; overflow:hidden;} 
+.big_rate_up {width:140px; height:28px; position:absolute; top:0; left:0; 
+ background:url(star.gif) left top;} 
+#my_rate{ position:absolute; margin-top:40px; margin-left:100px} 
+#my_rate span{color:#dd5400; font-weight:bold} 

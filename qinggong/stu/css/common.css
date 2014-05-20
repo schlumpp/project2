@@ -1,0 +1,83 @@
+﻿/*
+这个CSS是公共类,其中的CSS是这一个网站所有页面共用的类(一个网站一个common类)
+该类比较稳定
+@作者 陈烘
+@更新 2013.4.12
+*/
+
+@charset "utf-8";
+/****覆盖base类中的部分css,以适用本网站*****/
+html,.main {background-color:#fff; min-width:1000px; width:expression_r_r(document.body.clientWidth <10001? "1000px" : "auto");}
+
+body{ font-size:12px; line-height:185%!important;  color:#5f5f5f; margin:0; padding:0;}
+
+a { text-decoration:none;}
+
+ul {list-style:none;}
+
+img{ border:0px;}
+
+/***********网站头部的公共类*******************/
+.header {background:url(../img/head_bg.jpg) repeat-x top;}
+
+
+.header ul li a  {  padding-left:4px; padding-top:6px; text-decoration:none;}
+
+.header ul li span:hover { cursor:pointer; text-decoration:underline; color:#00C;}
+/***********网站头部导航的公共类*******************/
+.nav {background:url(../img/nav_bg.jpg) repeat-x;}
+
+.nav ul {list-style:none;}
+
+.nav ul li{ float:left; background:url(../img/division.jpg) right no-repeat;  text-align:center; }
+
+#firstnav li a,#firstnav li a:visited {color: white; display: block; font-size: 15px; font-weight: bolder; height: 29px; width: 90px;text-align:center; }
+
+#firstnav li a:hover {background-color: #fff;  opacity:0.5!important; filter:alpha(opacity=50); color: #090940;}
+
+#firstnav li ul { padding-left:0px; display:none; background-color:#057eef;  height:35px;  line-height:30px; position:absolute; text-align:center;  z-index:1;}
+
+#firstnav li ul li { float:left;  background:none;  }
+
+#firstnav li ul li a {width:130px; font-size:11pt;}
+
+
+
+/***********网站中间部分的公共类*******************/
+
+.content {  margin:0 auto; background:#f3f1f1; padding-top:40px; clear:both;}
+
+.content_resize { width:1000px; height:auto; overflow:hidden;  margin:0 auto;}
+
+/***********网站中间部分左导航的公共类*******************/
+
+.left_nav{ margin:0; width:230px; float:left;}
+
+.left_nav ul li{ height:44px; width:174px; margin-top:20px; margin-left:-40px; background:url(../img/btn.jpg) no-repeat;  text-align:center; padding-top:13px;}
+
+.left_nav ul li a{ font-size:11pt; color:#FFFFFF; font-weight:bold; }
+
+/***********网站中间右部分的公共类*******************/
+
+/*******(当前位置: > 首页 > 勤工简介 >中心介绍)公共类********/
+.right_content {float:left; width:770px; height:auto; overflow:hidden; }
+
+.right_content .position{float:left; }
+
+.right_content .position_now{ float:left; margin-top:4px; margin-left:14px;}
+
+/*(Introduce 中心介绍 作者：团委办公室 发布于：2013-1-23 12:21:23)公共类*/
+
+.detail_latestNews_title { color:#057eef; }
+
+.detail_latestNews_title ul li{ float:left; display:block;}
+
+.detail_latestNews_title ul{ clear:both;  float:left; border-bottom:solid #057eef; padding-left:10px; width:800px; }
+
+.detail_latestNews_title_f1{ font-size:20px; font-weight:bold; text-transform:capitalize;}
+
+.detail_latestNews_title_f2{ font-size:16px; font-weight:bold; margin-left:30px;}
+
+.detail_latestNews_title_f3{ font-size:14px; margin-left:200px;}
+/*******网站底部公共类************/
+.footer{ clear:both; background:url(../img/foot_bg.jpg) repeat-x; }
